@@ -10,7 +10,7 @@ class Clientes(models.Model):
 class Articulos(models.Model):
     nombre=models.CharField(max_length=30)
     seccion=models.CharField(max_length=20)
-    seccion=models.IntegerField()
+    precio=models.IntegerField()
 
 class Pedidos(models.Model):
     numero=models.IntegerField()
